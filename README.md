@@ -1,5 +1,6 @@
 # 3D_modelling
 
-using metashape
+Using metashape
 
 環繞目標物攝影
+
