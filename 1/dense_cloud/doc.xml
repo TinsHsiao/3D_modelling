@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dense_cloud version="1.2.0">
+  <tiles>
+    <tile path="dense_cloud.oc3">
+      <totalCount>6100582</totalCount>
+      <validCount>3074846</validCount>
+      <pointCount class="0">3074846</pointCount>
+      <hasPointNormals>true</hasPointNormals>
+      <hasPointConfidence>true</hasPointConfidence>
+    </tile>
+  </tiles>
+  <params>
+    <dataType>uint8</dataType>
+    <bands>
+      <band label="Red"/>
+      <band label="Green"/>
+      <band label="Blue"/>
+    </bands>
+  </params>
+  <meta>
+    <property name="BuildDenseCloud/duration" value="36.186"/>
+    <property name="BuildDenseCloud/keep_depth" value="true"/>
+    <property name="BuildDenseCloud/max_neighbors" value="100"/>
+    <property name="BuildDenseCloud/max_workgroup_size" value="100"/>
+    <property name="BuildDenseCloud/point_colors" value="true"/>
+    <property name="BuildDenseCloud/point_confidence" value="true"/>
+    <property name="BuildDenseCloud/resolution" value="0.00181327687800784"/>
+    <property name="BuildDenseCloud/subdivide_task" value="true"/>
+    <property name="BuildDenseCloud/workitem_size_cameras" value="20"/>
+    <property name="BuildDepthMaps/cameras" value=""/>
+    <property name="BuildDepthMaps/downscale" value="2"/>
+    <property name="BuildDepthMaps/duration" value="274.186"/>
+    <property name="BuildDepthMaps/filter_mode" value="1"/>
+    <property name="BuildDepthMaps/max_neighbors" value="16"/>
+    <property name="BuildDepthMaps/max_workgroup_size" value="100"/>
+    <property name="BuildDepthMaps/reuse_depth" value="false"/>
+    <property name="BuildDepthMaps/subdivide_task" value="true"/>
+    <property name="BuildDepthMaps/workitem_size_cameras" value="20"/>
+    <property name="Info/LastSavedDateTime" value="2022:05:06 13:39:43"/>
+    <property name="Info/LastSavedSoftwareVersion" value="1.8.3.14331"/>
+    <property name="Info/OriginalDateTime" value="2022:05:06 13:19:10"/>
+    <property name="Info/OriginalSoftwareVersion" value="1.8.3.14331"/>
+  </meta>
+</dense_cloud>
